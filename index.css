@@ -1,0 +1,242 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+} 
+
+/*------- HEADER PART in HTML ------*/
+header {
+    width: 600px;
+    height: 182px;
+    position: relative;
+}
+
+h1 {
+   font-size: 39px;
+   font-weight: 400;
+   line-height: 24px;
+   color: #FFFFFF;
+   position: absolute;
+   top: 34px;
+   left: 46px;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 77px;
+    left: 46px;
+}
+
+/* ----------------------------- */
+
+/*------- in HTML div Id=functional-container  ------*/
+
+#your-order-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#check-out-section{
+    width: 508px;
+    margin-left: 45px;
+    margin-bottom: 53px;
+}
+
+#payment-modal{
+    display: none;
+    position: fixed;
+    left: 38px;
+    top: 15%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 524px;
+    height: 542.24px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Verdana';
+    filter: drop-shadow(5px 5px 150px rgba(0, 0, 0, 0.5));
+}
+
+#payment-modal button {
+    width: 475.91px;
+    height: 71.3px;
+    color: #FFFFFF;
+    background: #16DB99;
+    border-radius: 3.8px;
+    border: none;
+    font-weight: 700;
+    margin: 20px;
+    cursor: pointer;
+
+}
+
+.form-element {
+    width: 475.91px;
+    height: 71.3px;
+    border: 1.29664px solid #757575;
+    border-radius: 3.88991px;
+    margin: 10px;
+    color: #757575;
+    font-weight: 400;
+    padding-left: 30px;
+
+}
+
+.form-title{
+    font-weight: 700;
+    font-size: 24px;
+    padding: 49px;
+}
+/* ----------------------------- */
+
+/*------- innerHTML RenderTheMenu() in JS ------*/
+
+.menu-items {
+    display: flex;
+    width: 508px;
+    height: 140px;
+    margin: 45px;
+    border-bottom: 1px solid #D2D2D2;
+
+}
+
+.emoji {
+    font-size: 78.72px;
+    opacity: 0.72;
+    margin-right: 31px;
+}
+
+.menu-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 358px ;
+}
+
+
+h2,
+h4,
+p{
+    margin: 3px;
+}
+
+h2{
+    font-size: 28px;
+    color: #000000;
+    margin: 0px;
+}
+
+p{
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+h4{
+    font-size: 20px;
+    color: #000000;
+}
+
+.add-button,
+.add-button-after-order{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1.5px solid #DEDEDE;
+    font-weight: 200;
+    font-size: 32px;
+    line-height: 24px;
+    text-align: center;
+    color: #3C3C3C;
+    font-family: 'Inter', sans-serif;
+    
+    
+}
+.add-button{
+    cursor: pointer;
+    background: none;
+}
+
+.add-button-after-order{
+    background: #DEDEDE;
+    cursor: not-allowed;
+    color: lightgray;
+}
+
+/* ----------------------------- */
+
+/*------- innerHTML in RenderTheOrders() in JS ------*/
+
+.ordered-items,
+.total-price-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-price-container {
+    border-top: 2px solid #393333;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.ordered-items span {
+    color: #BBBBBB;
+    font-size: 15px;
+    
+}
+
+.complete-order-btn{
+    width: 508px;
+    height: 60px;
+    color: #FFFFFF;
+    background: #16DB99;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+/* ----------------------------- */
+
+/*------- innerHTML Submit Form in JS ------*/
+
+.check-out-message{
+    font-family: 'Smythe', cursive;
+    color: #065F46;
+    font-weight: 400;
+    font-size: 32px;
+    background: #ECFDF5;
+    border-radius: 3px;
+    padding: 40px;
+    text-align: center;
+}
+
+.reorder-btn {
+    display: block;
+    font-family: 'Smythe', cursive;
+    background-color: #065F46;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ECFDF5;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 104px;
+    text-align: center;
+    margin: 10 auto;
+    cursor: pointer;
+}
+
+/* ----------------------------- */
