@@ -4,7 +4,6 @@
 
 body {
     margin: 0;
-    padding: 10px;
     font-family: 'Smythe', cursive;
 } 
 
@@ -18,7 +17,7 @@ header {
 }
 
 header img{
-    width: 450px;
+    width: 410px;
     height: 100%;
     object-fit: cover;
 }
@@ -54,7 +53,7 @@ h3{
 }
 
 #check-out-section{
-    width: 450px;
+    width: 410px;
     margin-bottom: 53px;
 }
 
@@ -65,7 +64,7 @@ h3{
     top: 15%;
     flex-direction: column;
     align-items: center;
-    width: 400px;
+    width: 360px;
     height: 542.24px;
     background-color: #FFFFFF;
     font-size: 20px;
@@ -74,7 +73,7 @@ h3{
 }
 
 #payment-modal button {
-    width: 350px;
+    width: 310px;
     height: 71.3px;
     color: #FFFFFF;
     background: #16DB99;
@@ -87,7 +86,7 @@ h3{
 }
 
 .form-element {
-    width: 350px;
+    width: 310px;
     height: 71.3px;
     border: 1.29664px solid #757575;
     border-radius: 3.88991px;
@@ -109,7 +108,7 @@ h3{
 
 .menu-items {
     display: flex;
-    width: 450px;
+    width: 410px;
     height: 130px;
     padding-top: 20px;
     padding-left: 15px;
@@ -187,7 +186,7 @@ h4{
 .total-price-container {
     display: flex;
     justify-content: space-between;
-    width: 450px;
+    width: 410px;
     padding-right: 15px;
     padding-left: 15px;
     
@@ -206,7 +205,7 @@ h4{
 }
 
 .complete-order-btn{
-    width: 450px;
+    width: 410px;
     height: 60px;
     color: #FFFFFF;
     background: #16DB99;
